@@ -1,9 +1,9 @@
 CREATE TABLE raw_sales(
 	datesold     Date,
-	postcode     INt,
+	postcode     INT,
 	price        INT,
 	propertyType VARCHAR,
-	bedrooms     Int
+	bedrooms     INT
 );
 ALTER TABLE raw_sales
 ADD COLUMN id SERIAL PRIMARY KEY;
